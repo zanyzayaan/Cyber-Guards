@@ -14,7 +14,7 @@
     <aside class="sidebar" aria-label="Sidebar">
       <div class="brand">
         <div class="logo" id="logoWrap" title="CyberGuardians logo">
-          <img id="brandLogo" src="CG logo.jpg" alt="logo" style="display:none;">
+          <img id="brandLogo" src="CG logo.jpg" alt="logo" >
           <svg id="logoFallback" viewBox="0 0 100 100" style="width:26px;height:26px;">
             <defs>
               <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#ff7433"/><stop offset="1" stop-color="#ff4b2b"/></linearGradient>
@@ -154,7 +154,7 @@
               <select id="inputType" style="max-width:160px;">
                 <option value="auto">Auto-detect</option>
                 <option value="email">Email</option>
-                <option value="sms">SMS / message</option>
+                <option value="sms">SMS / Message</option>
                 <option value="link">Link / URL</option>
                 <option value="phone">Phone number</option>
                 <option value="other">Other</option>
@@ -194,7 +194,7 @@
             <div id="alertsFull" class="alerts-list"></div>
             <div style="margin-top:12px; display:flex; gap:8px;">
               <button class="btn ghost" onclick="clearAlerts()">Clear alerts</button>
-              <button class="btn" onclick="exportAlerts()">Export alerts (JSON)</button>
+              <button class="btn" onclick="exportAlerts()">Export alerts</button>
             </div>
           </div>
         </div>
@@ -202,7 +202,7 @@
         <!-- News view -->
         <div id="view-news" class="card view" style="display:none;">
           <h2>Latest Cyber Fraud News</h2>
-          <p class="muted">A curated static feed (replace with live API / RSS later).</p>
+          <p class="muted">A curated static feed.</p>
           <div id="newsList" class="news-list" style="margin-top:12px;"></div>
         </div>
 
@@ -221,7 +221,7 @@
               </ul>
             </div>
             <div class="small">
-              <h3 style="margin:0 0 8px 0">Starter manifest (example)</h3>
+              <h3 style="margin:0 0 8px 0">Starter manifest</h3>
               <pre style="margin:0;background:rgba(0,0,0,0.25);padding:10px;border-radius:8px;color:var(--muted);font-size:12px;overflow:auto">{
   "manifest_version":3,
   "name":"CyberGuardians Helper",

@@ -458,4 +458,20 @@ select,
 }
 
 
+/* Logo image styling */
+#brandLogo {
+  width: 100%;              /* fill the logo container */
+  height: 100%;             /* keep proportions inside the .logo div */
+  object-fit: cover;        /* crop/scale nicely */
+  border-radius: 10px;      /* match the rounded corners of the logo box */
+  display: block;           /* ensure it behaves as a block element */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* subtle shadow for depth */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover effect for logo */
+#brandLogo:hover {
+  transform: scale(1.05);   /* slight zoom on hover */
+  opacity: 0.95;            /* subtle fade effect */
+}
 
