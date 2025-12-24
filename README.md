@@ -56,7 +56,7 @@ Cyber-Guards provides a simple, accessible, and intelligent platform that:
 4. A risk score is generated  
 5. Results are displayed with safety tips and preventive suggestions
 
-## Tech Stack
+## Tech Stack (Used and To Be Used)
 - Frontend: HTML, CSS, Javascript
 - Backend: Node.js, Express.js
 - Machine Learning: NLTK, spaCy
